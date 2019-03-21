@@ -1,0 +1,105 @@
+<!-- This will be my CSS document -->
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: url("background.jpg");
+  overflow: auto;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 4, 7, 0.8);
+  border-radius: 25px;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+    transition: all ease-in-out 500ms;
+}
+.box:hover {
+  background: rgba(0,0,0,1);
+}
+.box:hover span{
+  transition: all ease-in 500ms;
+}
+.box:hover .ette{
+  color: red;
+}
+.box:hover .o{
+  color: #8B4513;
+}
+.box:hover .erik{
+  color: green;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 100% 0;
+  transition: transform 0.2s;
+}
+.box-img:hover {
+  transform: scale(1.45);
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.box .about {
+  color: gold;
+  font-weight: bold;
+}
+
+.box h5 .School {
+  color: gold;
+  text-decoration: none;
+}
+.box h5 .School:hover {
+  color: #3a5ebf;
+}
+.box p{
+  text-align: center;
+  color: white;
+}
+.box p a{
+  color: gold;
+}
+.box p a:hover{
+  color: #41B5AA;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box .facebook a:hover{
+  color: 	#3b5998;
+}
+.box .linkedin a:hover{
+  color: 	#0077B5;
+}
+.box .github a:hover{
+  color: 	gold;
+}
