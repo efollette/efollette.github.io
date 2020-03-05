@@ -14,18 +14,20 @@
 	// Events (JS).
 
 		// Remove "loading" class once the page has fully loaded.
-			window.onload = function() {
-				document.body.className = '';
-			}
+		window.onload = function() {
+			document.body.className = '';
+		}
 
 		// Prevent scrolling on touch.
-			window.ontouchmove = function() {
-				return false;
-			}
+		window.ontouchmove = function() {
+			return false;
+		}
 
 		// Fix scroll position on orientation change.
-			window.onorientationchange = function() {
-				document.body.scrollTop = 0;
-			}
+		window.onorientationchange = function() {
+			document.body.scrollTop = 0;
+		}
+
+	
 
 })();
